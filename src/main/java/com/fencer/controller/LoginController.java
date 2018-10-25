@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping(value="/app")
 public class LoginController{
+	 //注释
      @RequestMapping(value="/welcome")  //welcome要访问的url地址
         public  String  hello(){
             System.out.println("hello,springmvc");
